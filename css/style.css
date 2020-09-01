@@ -1,19 +1,17 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&subset=cyrillic');*/
 html body {
-    font-family: Roboto Condensed, SansSerif;
-    margin: 0;
-    padding: 0;
+    /* font-family: "RobotoCondensedRegular", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
 
-   background-size: cover;
-    /*overflow: hidden;*/
+    /* background-size: cover; */
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 a {
-    font-family: Roboto Condensed, SansSerif;
+    /*font-family: Roboto Condensed, SansSerif;*/
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -42,20 +40,14 @@ header {
     }
 
 .image {
-    position	: relative;
-    width		: 100%; /* for IE 6 */
-   /* max-width: 1100px;*/
-   padding-bottom: 150px;
-  /*  background: url(../img/Rectangle%2043.webp) no-repeat;
-    background: url(../img/Rectangle%2043.webp) no-repeat;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-  /*  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-/*   -o-background-size: 100%; /* Opera 9.6+ */
-  /* background-size: cover; /* Современные браузеры */
-   /* object-fit: cover;*/
-    overflow: hidden; /* Прячем всё за пределами */
-    min-width: 600px;
-
+    background: url(../img/bg_1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    /*padding-bottom: 150px;*/
 }
 
 .image img {
@@ -64,7 +56,7 @@ header {
 }
 
 h2 {
-    font-family: Roboto Condensed, SansSerif;
+    /*font-family: Roboto Condensed, SansSerif;*/
     position	: absolute;
     top		: 493px;
     left		: 917px;
@@ -110,17 +102,17 @@ span.line-1.active, span.line-2.active{
 }
 */
 .top__line {
-    position	: absolute;
-    top		: 49px;
-    left		: 0;
-    /*position: relative;*/
+    position: absolute;
+    top: 49px;
+    left: 0;
+    /* position: relative; */
     width: 100%;
-   /* max-width: 1100px;*/
-    /*margin: 49px auto 0;*/
+    /* max-width: 1100px; */
+    /* margin: 49px auto 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-size: cover;
+    padding: 0 15px;
 }
 
 .top__line_left {
@@ -129,7 +121,8 @@ span.line-1.active, span.line-2.active{
 
 .top__line_right {
     width: 33%;
-    justify-content: right;
+    justify-content: flex-end;
+    display: flex;
 }
 
 .top__line_left-menu ul {
@@ -162,9 +155,9 @@ span.line-1.active, span.line-2.active{
     list-style-type: none
 }
 
-.top__line_right-menu ul li {
-    margin-left: 360px;
-}
+/*.top__line_right-menu ul li {*/
+/*    margin-left: 360px;*/
+/*}*/
 
 footer {
     border-top: 1px solid #ededed;
@@ -257,7 +250,7 @@ footer {
     margin-left: 360px;
 }
 h3 {
-    font-family: Roboto Condensed, SansSerif;
+    /*font-family: Roboto Condensed, SansSerif;*/
     height: 28px;
     margin-left: 541px;
     margin-top: -21px;
@@ -269,7 +262,7 @@ h3 {
     color: #000000;
 }
 h4 {
-    font-family: Roboto Condensed, SansSerif;
+    /*font-family: Roboto Condensed, SansSerif;*/
     font-style: normal;;
     font-weight: bold;
     font-size: 18px;
