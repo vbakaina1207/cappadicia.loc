@@ -1,0 +1,480 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&subset=cyrillic');*/
+html body {
+    font-family: Roboto Condensed, SansSerif;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+   background-size: cover;
+    /*overflow: hidden;*/
+}
+
+a {
+    font-family: Roboto Condensed, SansSerif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    background-size: 100% auto;
+    color: #000000;
+    text-decoration: none
+}
+
+header {
+    position: relative;
+    background-size: cover;
+    object-fit: cover;
+    z-index: 1
+}
+
+
+    .line {
+        position: relative;
+        width: 100%;
+        max-width: 1100px;
+        height: auto;
+        /* margin: 0 auto;*/
+        left: 0;
+        top: 0;
+    }
+
+.image {
+    position	: relative;
+    width		: 100%; /* for IE 6 */
+   /* max-width: 1100px;*/
+   padding-bottom: 150px;
+  /*  background: url(../img/Rectangle%2043.webp) no-repeat;
+    background: url(../img/Rectangle%2043.webp) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+  /*  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+/*   -o-background-size: 100%; /* Opera 9.6+ */
+  /* background-size: cover; /* Современные браузеры */
+   /* object-fit: cover;*/
+    overflow: hidden; /* Прячем всё за пределами */
+    min-width: 600px;
+
+}
+
+.image img {
+    width: 100%; /* Ширина изображений */
+    margin: -10% 0 0 0;
+}
+
+h2 {
+    font-family: Roboto Condensed, SansSerif;
+    position	: absolute;
+    top		: 493px;
+    left		: 917px;
+    /*width		: 100%;*/
+    font-style: italic;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    margin-top: -20px;
+    /* identical to box height */
+    color: #000000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /*padding-left: 917px;*/
+
+}
+/*span.line-1 {
+    width: 1px;
+    height: calc(100% + 100px);
+    background-color: #ededed;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    display: block;
+    align-items: center;
+    transition: 3.3s ease-in
+}
+
+span.line-2 {
+    width: 1px;
+    height: calc(100% + 100px);
+    background-color: #ededed;
+    position: absolute;
+    top: -100px;
+    left: 66%;
+    display: block;
+    align-items: center;
+    transition: 3.3s ease-in
+}
+
+span.line-1.active, span.line-2.active{
+    height: calc(100% + 100px);
+    transition: 3.3s ease-in
+}
+*/
+.top__line {
+    position	: absolute;
+    top		: 49px;
+    left		: 0;
+    /*position: relative;*/
+    width: 100%;
+   /* max-width: 1100px;*/
+    /*margin: 49px auto 0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+
+.top__line_left {
+    width: 66%
+}
+
+.top__line_right {
+    width: 33%;
+    justify-content: right;
+}
+
+.top__line_left-menu ul {
+    display: flex;
+    /*margin: 0;*/
+    padding: 0;
+    margin-left: 360px;
+    list-style-type: none
+}
+
+.top__line_left-menu ul li {
+    margin-right: 52px;
+
+}
+
+.top__line_left-menu ul li a, .top__line_right-menu ul li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none
+}
+
+.top__line_right-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none
+}
+
+.top__line_right-menu ul li {
+    margin-left: 360px;
+}
+
+footer {
+    border-top: 1px solid #ededed;
+   /* padding: 90px 0 120px*/
+    padding-bottom: 180px;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+   /* margin: 0 auto;*/
+    display: flex;
+    flex-wrap: wrap;
+   /* background-size: contain;*/
+   /* justify-content: space-between;
+    align-items: flex-start;*/
+
+}
+
+#Path, #Contacts, #Cost, #Hotel{
+    position: absolute;
+    left: 0;
+   /* top: -60px;*/
+}
+
+.cappadocia {
+   /* width: 100%;*/
+   /* max-width: 1100px;*/
+    width: 1074px;
+    height: 264px;
+    left: 98px;
+    top: 249px;
+    position: absolute;
+    z-index: 1;
+  /*  font-family: Balqis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 250px;
+    line-height: 334px;
+
+    color: #000000;*/
+
+}
+
+.top-line a {
+   /* width: 100%;*/
+}
+
+.container {
+  /*  margin: 0 180px 180px 180px;*/
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;*/
+}
+
+
+.tour {
+    position: relative;
+    margin: 0 180px 163px 180px;
+    width: 100%;
+    /*max-width: 1100px;*/
+   /*margin: 120px auto 0;*/
+    display: flex;
+    justify-content: space-between;
+  /*  width: 1560px;
+    height: 932px;*/
+   /* align-items: center*/
+}
+
+.tour__left {
+    width: 66%;
+    height: auto;
+   margin-right: 55px;
+    margin-top: 200px;
+    background-size: cover;
+}
+
+.tour_right {
+    width: 33%;
+    height: auto;
+    margin-left: 55px;
+    margin-top: 200px;
+   /*width: 545px;*/
+}
+
+.tour__head a {
+    width: 330px;
+    height: 125px;
+    margin-left: 360px;
+}
+h3 {
+    font-family: Roboto Condensed, SansSerif;
+    height: 28px;
+    margin-left: 541px;
+    margin-top: -21px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+h4 {
+    font-family: Roboto Condensed, SansSerif;
+    font-style: normal;;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+.tour p {
+    margin-top: 50px;
+}
+.tour__head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+
+.project__text {
+
+   /* margin-left: 60px;
+    margin-bottom: 24px;*/
+    max-width: 300px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+
+.tour__left .project__links {
+    width: 100%;
+    height: 100%;;
+
+
+                    /*  overflow: hidden; /* Прячем всё за пределами */
+    /*min-width: 600px;*/
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-size: cover;
+}
+.project__links img {
+    width: calc(100% - 55px);
+}
+
+.path {
+    position: relative;
+    width: 100%;
+    margin: 0 0 240px 360px;
+    /*max-width: 1100px;*/
+    /*margin: 120px auto 0;*/
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center*/
+   /* margin-top: 163px;
+    margin-left: 180px;*/
+}
+
+.path h3 {
+    margin-left: 240px;
+}
+
+.path__left {
+    width: 33%;
+    height: auto;
+    margin-right: 55px;
+    margin-top: 200px;
+}
+
+.path__right {
+    width: 66%;
+    height: auto;
+    margin-left: 55px;
+    margin-top: 200px;
+   /* width: 545px;*/
+
+}
+.path__right .project__links {
+    width: 100%;
+    height: 100%;
+}
+
+.reserve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+}
+
+.reserve__button {
+    border: 0;
+    padding: 11px 53px;
+   /* width: 230px;*/
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+    background-color:  #ffffff;
+}
+
+.reserve__button:hover,
+.reserve__button:focus {
+    background-color: #da8b03;
+}
+
+.reserve__button:active {
+    color: rgba(14, 13, 13, 0.3);
+
+    background-color: #7cf5f5;
+}
+
+.hotel {
+    position: relative;
+    margin: 0 360px 200px 360px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /*max-width: 1100px;*/
+    /*margin: 120px auto 0;*/
+    display: flex;
+    justify-content: space-between;
+    /*  width: 1560px;
+      height: 932px;*/
+    /* align-items: center*/
+}
+
+.hotel__left {
+    width: 33%;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 200px;
+    background-size: cover;
+}
+
+.hotel__right {
+    width: 66%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 200px;
+    /*width: 545px;*/
+}
+
+.hotel__head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.hotel h3 {
+    margin-left: 105px;
+}
+.container_hotel_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.container_hotel_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.collum {
+    width: calc(50% - 20px);
+    height: 280px;
+    background-size: cover;
+
+}
+
+.collum:last-child{
+    margin-right: 0;
+}
+.hotel__left .project__links {
+    width: 100%;
+    height: 100%;
+}
+
+
+.hotel_text {
+    /* margin-left: 60px;
+     margin-bottom: 24px;*/
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
