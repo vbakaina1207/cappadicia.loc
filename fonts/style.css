@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
   font-family: 'myfont';
   src:  url('fonts/myfont.eot?2o8t54');
   src:  url('fonts/myfont.eot?2o8t54#iefix') format('embedded-opentype'),
@@ -9,17 +9,17 @@
   font-style: normal;
   font-display: block;
 
-}*/
-@font-face {
+}
+/*@font-face {
   font-family: "RobotoCondensedRegular";
   /*src: url("RobotoCondensedRegular.eot");*/
   /*src: url("RobotoCondensedRegular.eot?#iefix")format("embedded-opentype"),*/
-  url("RobotoCondensedRegular.woff") format("woff"),
+ /* url("RobotoCondensedRegular.woff") format("woff"),
   url("RobotoCondensedRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
-
+*/
 
 
 i {

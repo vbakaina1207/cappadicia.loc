@@ -7,12 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cappadocia</title>
 
-    <!--    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">-->
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">-->
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital@0;1&display=swap" rel="stylesheet">-->
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <!--    <link rel="stylesheet" href="fonts/style.css">-->
+       <link rel="stylesheet" href="fonts/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <!--    <link rel="stylesheet" href="css/media.css">-->
@@ -25,7 +21,7 @@
 
         <div class="cappadocia">
             <!--            Cappadocia-->
-            <a href="index.html"><img src="img/Cappadocia.webp" alt="img"></a>
+            <a href="#Tour"><img src="img/Cappadocia.webp" alt="img"></a>
         </div>
         <a class="scroll-to" href="#Tour"><h2>Эксклюзивный тур</h2></a>
 
@@ -56,15 +52,17 @@
 <!--        </div>-->
 
 <!--  <div class="container">-->
-<section>
+<!--<section>-->
+<div class="tour_block">
     <div id="Tour"></div>
+
     <div class="tour">
         <div class="tour__head">
             <a href="index.html"><img src="img/Fairy%20tail.webp" alt="img"></a>
             <h3>Сказочная страна чудес</h3>
         </div>
         <div class="tour__left">
-            <div class="project project__links" style="background-image: url(img/Rectangle%2019.webp);">
+            <div class="project project__links" style="background-image: url(img/bg_1.webp);">
                 <!--                        <a href="index.html"><img src="img/Rectangle%2019.webp" alt="img"></a>-->
             </div>
 
@@ -87,8 +85,9 @@
             <p class="project__text">Местная кухня — один из поводов посетить Каппадокию, здесь есть рестораны на любой бюджет. </p>
         </div>
     </div>
-</section>
-<section>
+</div>
+<!--</section>-->
+<!--<section>-->
     <div id="Path"></div>
     <div class="path">
         <div class="path__left">
@@ -123,8 +122,8 @@
         <!--              <input type="submit" value="ЗАБРОНИРОВАТЬ">-->
 
     </div>
-</section>
-<section>
+<!--</section>-->
+<!--<section>-->
     <div id="Hotel"></div>
     <div class="hotel">
         <div class="hotel__head">
@@ -169,19 +168,90 @@
             </div>
         </div>
     </div>
-</section>
+<!--</section>-->
+<div id="Cost"></div>
+<div class="price_block">
+    <div class="price__head">
+        <a href="index.html"><img src="img/Price.webp" alt="img"></a>
+        <h3>Стоимость услуг </h3>
+    </div>
+    <div class="price__left">
+        <p class="hotel__text">
+            <h4>Включено</h4>
+        </p>
+        <p class="hotel__text">
+            Проживание в двухместном номере в отеле с завтраками
+        </p>
+        <p class="hotel__text">
+            Индивидуальный трансфер для нашей группы из Анкары и обратно
+        </p>
+        <p class="hotel__text">
+            Индивидуальная дневная экскурсия по лучшим местам Каппадокии с личным транспортом
+        </p>
+        <p class="hotel__text">
+            Фотосессия с профессиональным фотографом для каждой участницы (Несколько локаций, 5 лучших фото в обработке фотографа и весь материал (до 100 фотографий)
+        </p>
+        <div class="price_footer_left">
+            <a href="index.html"><img src="img/date.webp" alt="img"></a>
+            <h3>Ближайшая дата тура </h3>
+            <a href="index.html"><img src="img/490.webp" alt="img"></a>
+            Стоимость
+            <h4>Оставить заявку или задать вопрос</h4>
+            <form action="index.html" method="post" class="subscription">
+                <div class="subscription-message">
+<!--                    <label class="subscription-label" for="subscription-name"></label>-->
+                    <input type="text" class="subscription-name" placeholder="Имя" required id="subscription-name">
+                    <input type="tel" class="subscription-phone" placeholder="Телефон XX-XXX XXXXX" value="38-" id="subscription-phone" pattern="[0-9]{2}-[0-9]{3}[0-9]{7}" required>
+                </div>
+                <div>
+                <button class="button subscription-button" type="submit">Оставить заявку</button>
+                </div>
+            </form>
+
+        </div>
+        </div>
+    <div class="price__right">
+        <p class="hotel__text">
+        <h4>Не включено</h4>
+        </p>
+        <p class="hotel__text">
+            Авиа Киев-Анкара-Киев (140-170$)
+        </p>
+        <p class="hotel__text">
+            АОбеды и ужины (150$ на поездку)
+        </p>
+        <p class="hotel__text">
+            Воздушный шар 200$
+        </p>
+        <p class="hotel__text">
+            Дополнительные экскурсии (по желанию) от 30$
+        </p>
+        <div class="price_footer_right">
+<!--             style="background-image: url(img/Rectangle55.webp);">-->
+
+            <!--                             <a href="index.html"><img src="img/Rectangle%2024.webp" alt="img"></a>-->
+        </div>
+    </div>
+<!--    <div class="price_footer">-->
+<!--            -->
+<!-- -->
+<!--    </div>-->
+    </div>
+
+</div>
 <!--  </div>-->
 <!--       <span class="line-1"></span>-->
 <!--       <span class="line-2"></span>-->
 
 
 <footer>
-    <section>
+<!--    <section>-->
+    <div class="contacts">
         <div id="Contacts"></div>
         <!--    <a href="index.html"><img src="img/Contacts.webp" alt="img"  width="100%" height="100%"></a>-->
-        <a href="index.html"><img src="img/Contacts.webp" alt="img" width="100%" height="100%"></a>
-
-    </section>
+<!--        <a href="index.html"><img src="img/Contacts.webp" alt="img" width="100%" height="100%"></a>-->
+    </div>
+<!--    </section>-->
 </footer>
 <script src="js/script.js"></script>
 </body>
